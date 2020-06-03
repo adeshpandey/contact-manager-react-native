@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "ContactManager",
+    "slug": "ContactManager",
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "contactmanager"
+    },
+    "android": {
+      "permissions": [
+        "READ_CONTACTS",
+        "WRITE_CONTACTS"
+      ],
+      "package": "me.adesh.contactmanager"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
